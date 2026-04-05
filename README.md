@@ -85,7 +85,7 @@ Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)co
 ```latex
 \setbeamercolor{headline}{bg=umbcaokteal,fg=white}
 ```
-- Additional combinations are available in the file.
+- And other combinations that are available in the file.
 
 ---
 
