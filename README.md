@@ -37,7 +37,7 @@ cd UMBC-LaTeX-Poster-Template
 ```
 
 ### 2. Open the template
-Edit the 'main.tex' file to add your content:
+Edit the `main.tex` file to add your content:
 - Title
 - Authors and affiliations
 - Sections (Introduction, Methods, Results, etc.)
@@ -55,10 +55,10 @@ xelatex poster.tex
 🧱 Project Structure
 
 .
-├── main.tex                # Main poster file
-├── beamercolorthemeumbc.sty # Custom UMBC color theme
-├── umbc_logos/                   # UMBC logos and graphics
-└── README.md
+├── `main.tex`                # Main poster file
+├── `beamercolorthemeumbc.sty` # Custom UMBC color theme
+├── `umbc_logos/`                   # UMBC logos and graphics
+└── `README.md`
 
 ---
 
