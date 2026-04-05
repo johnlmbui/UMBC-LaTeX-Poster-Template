@@ -44,7 +44,8 @@ xelatex main.tex
 ```text
 .
 ├── main.tex                   # Main poster file
-├── beamercolorthemeumbc.sty   # UMBC theme colors
+├── beamercolorthemeumbc.sty   # UMBC-themed colors
+├── beamerthemegemini.sty      # beamerposter theme
 ├── umbc_logos/                # UMBC logos and graphics
 └── README.md                  # What you're reading right now
 ```
