@@ -51,7 +51,7 @@ xelatex main.tex
 
 ---
 
-## UMBC Colors (see `demos/`)
+## Theme Colors Preview (see `demos/`)
 
 ### Primary
 Gold, Black
