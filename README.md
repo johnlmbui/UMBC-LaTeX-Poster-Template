@@ -31,7 +31,7 @@ Edit the `main.tex` file to add your content:
 - Sections (Introduction, Methods, Results, etc.)
 ### 3. Compile the poster
 You can compile using:
-- Overleaf (recommended for beginners)
+- Overleaf
 - Local LaTeX installation:
 ```bash
 xelatex poster.tex
