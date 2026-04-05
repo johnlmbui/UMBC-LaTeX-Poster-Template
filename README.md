@@ -34,7 +34,7 @@ You can compile using:
 - Overleaf
 - Local LaTeX installation:
 ```bash
-xelatex poster.tex
+xelatex main.tex
 ```
 
 ---
