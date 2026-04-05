@@ -86,5 +86,5 @@ Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)co
 
 ---
 
-## Contributions are welcome!
+## Welcoming Contributions!
 If you have suggestions for improvement, feel free to open an issue or submit a pull request.
