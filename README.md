@@ -40,7 +40,7 @@ White, Brown
 
 ## Changing Theme Color
 
-Go to `beamerthemestanford.sty` and change the `headline` color by (un)commenting the [relevant lines](https://github.com/RylanSchaeffer/Stanford-LaTeX-Poster-Template/blob/master/beamercolorthemestanford.sty#L44-L47):
+Go to `beamerthemestanford.sty` and change the `headline` color by (un)commenting the [relevant lines](https://github.com/johnlmbui/UMBC-LaTeX-Poster-Template/blob/master/beamercolorthemeumbc.sty#L54-61):
 
 - Black Text, Gold Banner: `\setbeamercolor{headline}{bg=umbcgold,fg=black}`
 - Gold Text, Black Banner: `\setbeamercolor{headline}{bg=black,fg=umbcgold}`
