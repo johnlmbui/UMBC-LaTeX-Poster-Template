@@ -40,11 +40,14 @@ xelatex main.tex
 ---
 
 ## Project Structure
+
+```text
 .
-├── `main.tex`                # Main poster file
-├── `beamercolorthemeumbc.sty` # Custom UMBC color theme
-├── `umbc_logos/`                   # UMBC logos and graphics
-└── `README.md`
+├── main.tex                   # Main poster file
+├── beamercolorthemeumbc.sty   # Custom UMBC color theme
+├── umbc_logos/                # UMBC logos and graphics
+└── README.md
+```
 
 ---
 
