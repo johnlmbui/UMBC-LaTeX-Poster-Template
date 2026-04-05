@@ -27,8 +27,8 @@ Teal, Red
 Light Gray, Dark Gray
 
 <p align="middle">
-  <img align="top" src="demos/Light Gray.png" width="45%" />
-  <img align="top" src="demos/Dark Gray.png" width="45%" />
+  <img align="top" src="demos/Light_Gray.png" width="45%" />
+  <img align="top" src="demos/Dark_Gray.png" width="45%" />
 </p>
 
 White, Brown
