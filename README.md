@@ -1,5 +1,7 @@
 # UMBC LaTeX Poster Template
 
+Accessible on [Overleaf]{https://www.overleaf.com/read/dmwdjvpbspcs#f175ae}.
+
 ![](poster_pic.png)
 
 **Note:** On Overleaf, set the compiler to XeLatex or LuaLaTeX (Settings > Compiler).
@@ -42,9 +44,9 @@ White, Brown
 
 Go to `beamerthemestanford.sty` and change the `headline` color by (un)commenting the [relevant lines](https://github.com/johnlmbui/UMBC-LaTeX-Poster-Template/blob/master/beamercolorthemeumbc.sty#L54-61):
 
-- Black Text, Gold Banner: `\setbeamercolor{headline}{bg=umbcgold,fg=black}`
-- Gold Text, Black Banner: `\setbeamercolor{headline}{bg=black,fg=umbcgold}`
-- White Text, Teal Banner: `\setbeamercolor{headline}{bg=umbcaokteal,fg=white}`
+- Black Text, Gold Banner: `\setbeamercolor{headline}{bg=umbcgold,fg=black}`,
+- Gold Text, Black Banner: `\setbeamercolor{headline}{bg=black,fg=umbcgold}`,
+- White Text, Teal Banner: `\setbeamercolor{headline}{bg=umbcaokteal,fg=white}`,
 - and so on.
 
 ## Contributing
