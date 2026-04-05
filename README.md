@@ -1,34 +1,33 @@
 # UMBC LaTeX Poster Template
 
-A clean, modern, and customizable LaTeX **beamerposter** template designed for academic posters at the University of Maryland, Baltimore County (UMBC). This template is inspired by [Rylan Schaeffer](https://rylanschaeffer.github.io/)'s [Stanford LaTeX Poster Template](https://github.com/RylanSchaeffer/Stanford-LaTeX-Poster-Template) and adapted to align with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/).
+A modern and customizable LaTeX **beamerposter** template designed for research posters at the University of Maryland, Baltimore County (UMBC). This template is inspired by [Rylan Schaeffer](https://rylanschaeffer.github.io/)'s [Stanford LaTeX Poster Template](https://github.com/RylanSchaeffer/Stanford-LaTeX-Poster-Template) and adapted to align with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/).
 
-Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae)  
-(**Note:** On Overleaf, set the compiler to **XeLaTeX** or **LuaLaTeX** via *Menu → Settings → Compiler*.)
+Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**Note:** On Overleaf, set the compiler to `XeLaTeX` or `LuaLaTeX` via *Menu -> Settings -> Compiler*).
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎓 **UMBC-branded design** aligned with official university guidelines  
-- 🎯 **Adheres to the UMBC Style Guide** (colors, typography, and layout principles)  
-- 🧩 **Modular structure** for easy editing and reuse  
-- 🎨 **Clean and professional layout** suitable for research presentations  
-- ⚡ **Minimal setup** — get started quickly with LaTeX  
-- 📐 **Beamerposter-based**, making it flexible and widely supported  
-- 🔧 Easily customizable for:
+- **UMBC-branded design** aligned with official university guidelines  
+- **Adheres to the UMBC Style Guide** (colors, typography, and layout principles)  
+- **Modular structure** for easy editing and reuse  
+- **Clean and professional layout** suitable for research presentations  
+- **Minimal setup** — get started quickly with LaTeX  
+- **Beamerposter-based**, making it flexible and widely supported  
+- Easily customizable for:
   - Different departments  
   - Conferences and symposiums  
   - Personal branding tweaks  
 
 ---
 
-## 📸 Preview
+## Poster Preview
 
 ![](poster_pic.png)
 
 ---
 
-## 🚀 Getting Started
+## How to Get Started
 
 ### 1. Clone the repository
 ```bash
@@ -52,7 +51,7 @@ xelatex poster.tex
 
 ---
 
-🧱 Project Structure
+## Project Structure
 
 .
 ├── `main.tex`                # Main poster file
@@ -62,7 +61,7 @@ xelatex poster.tex
 
 ---
 
-## 🎨 Color Themes (see `demos/`)
+## Color Themes (see `demos/`)
 
 ### Primary
 
@@ -82,7 +81,7 @@ White, Brown
 
 ---
 
-## 🎛️ Changing the Theme Color
+## Changing the Theme Color
 
 Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)commenting the relevant lines:
 
@@ -105,8 +104,5 @@ Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)co
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! If you have ideas for improvements, feel free to open an issue or submit a pull request.
-
-Thank you in advance 🙂
+## Contributing
+Contributions are welcome! If you have ideas for improvements, feel free to open an issue or submit a pull request
