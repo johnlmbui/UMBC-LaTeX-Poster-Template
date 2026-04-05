@@ -1,6 +1,6 @@
 # UMBC LaTeX Poster Template
 
-Accessible on [Overleaf]{https://www.overleaf.com/read/dmwdjvpbspcs#f175ae}.
+Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae).
 
 ![](poster_pic.png)
 
