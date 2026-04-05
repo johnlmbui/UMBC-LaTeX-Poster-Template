@@ -46,7 +46,7 @@ xelatex main.tex
 ├── demos/                     # Examples of compiled posters
 ├── umbc_logos/                # UMBC logos and graphics
 ├── beamercolorthemeumbc.sty   # UMBC-themed colors
-├── beamerthemegemini.sty      # beamerposter theme
+├── beamerthemegemini.sty      # Gemini, a beamerposter theme (documentation can be found here: https://github.com/anishathalye/gemini/tree/master)
 ├── main.tex                   # Main poster file
 ├── poster.bib                 # Bibliography/references
 └── README.md                  # What you're reading right now
