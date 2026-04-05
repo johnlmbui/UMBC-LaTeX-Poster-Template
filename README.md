@@ -2,31 +2,49 @@
 
 ![](poster_pic.png)
 
-**Note:** If using Overleaf, make sure to set the compiler to XeLatex (Menu in the top left > Settings > Compiler).
+**Note:** If using Overleaf, make sure to set the compiler to XeLatex or LuaLaTeX (Menu in the top left > Settings > Compiler).
 
-## 4 Available Colors
+## 8 Available Colors (see `demos/`)
 
-There are 4 available colors (see `demos/`): Palo Alto Green, Cardinal Red:
+### Primary
+
+Gold, Black:
 
 <p align="middle">
-  <img align="top" src="demos/Stanford_CS_Poster_Template_Green.png" width="45%" />
-  <img align="top" src="demos/Stanford_CS_Poster_Template_Red.png" width="45%" />
+  <img align="top" src="demos/Gold.png" width="45%" />
+  <img align="top" src="Black.png" width="45%" />
 </p>
 
-White, Cool Grey:
+### Secondary
+
+Teal, Red:
 
 <p align="middle">
-  <img align="top" src="demos/Stanford_CS_Poster_Template_White.png" width="45%" />
-  <img align="top" src="demos/Stanford_CS_Poster_Template_Grey.png" width="45%" />
+  <img align="top" src="demos/Teal.png" width="45%" />
+  <img align="top" src="demos/Red.png" width="45%" />
+</p>
+
+Light Gray, Dark Gray:
+
+<p align="middle">
+  <img align="top" src="demos/Light Gray.png" width="45%" />
+  <img align="top" src="demos/Dark Gray.png" width="45%" />
+</p>
+
+White, Brown:
+
+<p align="middle">
+  <img align="top" src="demos/White.png" width="45%" />
+  <img align="top" src="demos/Brown.png" width="45%" />
 </p>
 
 
 To change the color, go to `beamerthemestanford.sty` and change the `headline` color by (un)commenting the [relevant lines](https://github.com/RylanSchaeffer/Stanford-LaTeX-Poster-Template/blob/master/beamercolorthemestanford.sty#L44-L47):
 
-- White Text, Palo Alto Green Banner: `\setbeamercolor{headline}{bg=paloaltogreen,fg=white}`
-- Cardinal Red Text, White Banner: `\setbeamercolor{headline}{bg=white,fg=cardinalred}`
-- White Text, Cardinal Red Banner: `\setbeamercolor{headline}{bg=cardinalred,fg=white}`
-- White Text, Cool Gray Banner: `\setbeamercolor{headline}{bg=coolgray,fg=white}`
+- Black Text, Gold Banner: `\setbeamercolor{headline}{bg=umbcgold,fg=black}`
+- Gold Text, Black Banner: `\setbeamercolor{headline}{bg=black,fg=umbcgold}`
+- White Text, Teal Banner: `\setbeamercolor{headline}{bg=umbcaokteal,fg=white}`
+- and so on.
 
 ## Contributing
 
