@@ -1,10 +1,8 @@
 # UMBC LaTeX Poster Template
 
-Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae).
+Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**Note:** When using Overleaf, set the compiler to XeLatex or LuaLaTeX by going to Settings > Compiler.)
 
 ![](poster_pic.png)
-
-**Note:** On Overleaf, set the compiler to XeLatex or LuaLaTeX (Settings > Compiler).
 
 ## 8 Colors (see `demos/`)
 
