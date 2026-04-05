@@ -14,7 +14,7 @@ Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**N
 ---
 
 ## Poster Preview
-![](poster_pic.png)
+![](poster.png)
 
 ---
 
