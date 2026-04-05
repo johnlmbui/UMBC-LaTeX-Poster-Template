@@ -43,10 +43,12 @@ xelatex main.tex
 
 ```text
 .
-├── main.tex                   # Main poster file
+├── demos/                     # Examples of compiled posters
+├── umbc_logos/                # UMBC logos and graphics
 ├── beamercolorthemeumbc.sty   # UMBC-themed colors
 ├── beamerthemegemini.sty      # beamerposter theme
-├── umbc_logos/                # UMBC logos and graphics
+├── main.tex                   # Main poster file
+├── poster.bib                 # Bibliography/references
 └── README.md                  # What you're reading right now
 ```
 
