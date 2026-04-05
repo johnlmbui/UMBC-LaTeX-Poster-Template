@@ -12,7 +12,7 @@ Gold, Black:
 
 <p align="middle">
   <img align="top" src="demos/Gold.png" width="45%" />
-  <img align="top" src="Black.png" width="45%" />
+  <img align="top" src="demos/Black.png" width="45%" />
 </p>
 
 ### Secondary
