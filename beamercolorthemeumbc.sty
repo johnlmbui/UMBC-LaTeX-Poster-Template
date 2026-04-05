@@ -40,17 +40,20 @@
 \definecolor{umbcretrieverbrown}{RGB}{166,122,5}
 \definecolor{umbcdarkgray}{RGB}{99,100,102}
 
+% Extra colors from https://htmlcolorcodes.com/colors/
+\definecolor{ivory}{RGB}{255, 255, 240}
+
 
 \mode<presentation>
 
-\setbeamercolor*{palette primary}{use=structure,fg=white,bg= umbcgold}
-\setbeamercolor*{palette secondary}{use=structure,fg=white,bg= coolgray}
-\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg= darkcardinal}
-\setbeamercolor*{palette quaternary}{fg=white,bg= darkbeige}
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=umbcgold}
+\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=coolgray}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=darkcardinal}
+\setbeamercolor*{palette quaternary}{fg=white,bg=darkbeige}
 
 
 % Headline, Sidebar, Footer
-\setbeamercolor*{sidebar}{use=structure,bg= beige}
+\setbeamercolor*{sidebar}{use=structure,bg=beige}
 % \setbeamercolor{headline}{bg=white,fg=umbcgold}
 \setbeamercolor{headline}{bg=umbcgold,fg=black}
 % \setbeamercolor{headline}{bg=black,fg=umbcgold}
@@ -59,13 +62,24 @@
 % \setbeamercolor{headline}{bg=umbcaokteal,fg=white}
 % \setbeamercolor{headline}{bg=umbcretrieverbrown,fg=white}
 % \setbeamercolor{headline}{bg=darkgray,fg=white}
-\setbeamercolor*{footer}{use=structure,bg= footergray,fg=darkcardinal}
+\setbeamercolor{headline rule}{bg=black}
+\setbeamercolor*{footer}{use=structure,bg=footergray,fg=darkcardinal}
 
 % Block
 \setbeamercolor{block title}{fg=umbcgold,bg=white}
 \setbeamercolor{block separator}{bg=black}
 \setbeamercolor{block body}{fg=black,bg=white}
-  
+
+% Alert Block
+\setbeamercolor{block title alerted}{fg=umbcgold,bg=ivory}
+\setbeamercolor{block separator alerted}{bg=black}
+\setbeamercolor{block body alerted}{fg=black,bg=ivory}
+
+% Example Block
+\setbeamercolor{block title example}{fg=umbcgold,bg=boxgray}
+\setbeamercolor{block separator example}{bg=black}
+\setbeamercolor{block body example}{fg=black,bg=boxgray}
+
 
 \setbeamercolor*{palette sidebar primary}{use=structure,fg=structure.fg!10}
 \setbeamercolor*{palette sidebar secondary}{fg=white}
