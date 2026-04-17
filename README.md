@@ -105,8 +105,8 @@ These fonts are already preinstalled in Font Book. In `main.tex`, change `\useth
 Open Font settings and drag the font files into the window to install them. Then follow the same step above.
 ### Linux 
 I am less familiar with the exact steps for Linux, but there are many guides and resources available online. You are encouraged to look up instructions specific to your distribution.
-
-Customization and documentation can also extend to other fonts that are not included in standard LaTeX packages, depending on your system and setup.
+### In general,
+customization and documentation can also extend to other fonts that are not included in standard LaTeX packages, depending on your system and setup.
 
 ---
 
