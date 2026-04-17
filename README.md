@@ -9,7 +9,7 @@ Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**N
 - Color themes and layout components aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/)
 - Built on the `beamerposter` class
 - Modular structure for easy editing and customization (e.g., departments, conferences, personal use)
-- Simple setup (compatible with Overleaf and local LaTeX)
+- Simple setup (compatible with Overleaf and local LaTeX editors)
 
 ---
 
