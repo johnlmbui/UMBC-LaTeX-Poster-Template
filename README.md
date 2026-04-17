@@ -91,7 +91,8 @@ Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)co
 ---
 
 ## Changing the Font (Avenir Next)
-**Note:** Avenir Next is the primary font used in UMBC publications; however, it is not available in standard TeX packages and must be installed separately. This may also require using different editors or configurations. I personally use [MacTeX](https://www.tug.org/mactex/) for macOS and [TeXstudio](https://www.texstudio.org/) for Windows, but feel free to explore alternatives such as VS Code or other editors. This project defaults to using the `beamerthemegemini.sty`, as it is forked from https://github.com/anishathalye/gemini and is intended to work “out of the box.”
+### Note:
+Avenir Next is the primary font used in UMBC publications; however, it is not available in standard TeX packages and must be installed separately. This may also require using different editors or configurations. I personally use [MacTeX](https://www.tug.org/mactex/) for macOS and [TeXstudio](https://www.texstudio.org/) for Windows, but feel free to explore alternatives such as VS Code or other editors. This project defaults to using the `beamerthemegemini.sty`, as it is forked from https://github.com/anishathalye/gemini and is intended to work “out of the box.”
 
 ### `fonts/`
 Contains three `.ttc` files:
@@ -105,7 +106,7 @@ These fonts are already preinstalled in Font Book. In `main.tex`, change `\useth
 Open Font settings and drag the font files into the window to install them. Then follow the same step above.
 ### Linux 
 I am less familiar with the exact steps for Linux, but there are many guides and resources available online. You are encouraged to look up instructions specific to your distribution.
-### Another Note
+### Another Note:
 Customization and documentation can also extend to other fonts that are not included in standard LaTeX packages, depending on your system and setup.
 
 ---
