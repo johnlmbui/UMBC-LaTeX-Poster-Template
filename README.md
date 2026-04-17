@@ -7,6 +7,7 @@ Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**N
 
 ## Features
 - Color themes and layout components aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/)
+  - 
 - Built on the `beamerposter` class
 - Modular structure for easy editing and customization (e.g., departments, conferences, personal use)
 - Simple setup (compatible with Overleaf and local LaTeX)
@@ -86,6 +87,11 @@ Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)co
 \setbeamercolor{headline}{bg=umbcaokteal,fg=white}
 ```
 - And other combinations that are available in the file.
+
+---
+
+## Changing the Font (Avenir Next)
+Avenir Next is the primary font in UMBC publications; however, it is not available in existing TeX packages and must be installed through other means. This project defaults to using the `beamerthemegemini` since it's forked from https://github.com/anishathalye/gemini and to be "straight out of the box."
 
 ---
 
