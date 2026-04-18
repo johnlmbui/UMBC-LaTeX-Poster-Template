@@ -89,24 +89,52 @@ Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)co
 
 ---
 
-## Changing the Font (Avenir Next)
-### Note:
-Avenir Next is the primary font used in UMBC publications; however, it is not available in standard TeX packages and must be installed separately. There is [Overleaf documentation](https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F) on how to load custom font files, but feel free to use different editors or configurations. I personally use [MacTeX](https://www.tug.org/mactex/) for macOS and [TeXstudio](https://www.texstudio.org/) for Windows. This project defaults to using the `beamerthemegemini.sty`, as it is forked from https://github.com/anishathalye/gemini and is intended to work “out of the box.”
+## Changing the Font
+There exist fonts that are not readily available in standard TeX packages, and therefore must be installed separately. There is [Overleaf documentation](https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F) on how to load custom font files, but feel free to use different editors or configurations. I personally use [MacTeX](https://www.tug.org/mactex/) for macOS and [TeXstudio](https://www.texstudio.org/) for Windows. This project defaults to using the `beamerthemegemini.sty`, as it is forked from https://github.com/anishathalye/gemini and is intended to work “out of the box.”
 
-### `fonts/`
-Contains three `.ttc` files:
+### The Avenir Font Family
+**Avenir Next** is the primary font used in UMBC publications. Therein  `fonts/` contains three `.ttc` files:
 - `Avenir.ttc`
 - `Avenir Next.ttc`
 - `Avenir Next Condensed.ttc`
 
-### macOS
-These fonts are already preinstalled in Font Book. In `main.tex`, change `\usetheme{gemini}` to `\usetheme{avenirnext}`.
-### Windows 10/11
+#### macOS
+These font files come preinstalled in Font Book. In `main.tex`, change `\usetheme{gemini}` to `\usetheme{avenirnext}`.
+#### Windows 10/11
 Open Font settings and drag the font files into its window to install them. Then follow the same step above.
-### Linux 
+#### Linux 
 I am less familiar with the exact steps for Linux, but there are many guides and resources available online. You are encouraged to look up instructions specific to your distribution.
-### Another Note:
-Customization and documentation can also extend to other fonts that are not included in standard LaTeX packages, depending on your system and setup.
+
+
+### How `beamertheme[font_name].sty` Works
+```latex
+% ====================
+% Fonts
+% ====================
+
+\newfontfamily\AvenirNext{Avenir Next}[Ligatures=TeX]
+
+\usefonttheme{professionalfonts}
+
+\setsansfont{Avenir Next}[
+  Ligatures=TeX,
+  UprightFont    = {Avenir Next Regular},
+  ItalicFont     = {Avenir Next Italic},
+  BoldFont       = {Avenir Next Bold},
+  BoldItalicFont = {Avenir Next Bold Italic}
+]
+
+\setbeamerfont{headline}{family=\AvenirNext}
+\setbeamerfont{headline title}{size=\Huge,series=\bfseries}
+\setbeamerfont{headline author}{size=\Large}
+\setbeamerfont{headline institute}{size=\normalsize}
+\setbeamerfont{block title}{family=\AvenirNext,size=\large,series=\bfseries}
+\setbeamerfont{heading}{family=\AvenirNext,series=\bfseries}
+\setbeamerfont{caption}{size=\small}
+\setbeamerfont{footline}{family=\AvenirNext,size=\normalsize}
+
+```
+This code block is from the style file `beamerthemeavenirnext.sty`, which sets the font to Avenir Next. You are encouraged to edit existing style files or add your own. The world is your oyster.
 
 ---
 
