@@ -6,9 +6,8 @@ Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**N
 ---
 
 ## Features
-- Color themes and layout components aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/)
-- Built on the `beamerposter` class
-- Modular structure for easy editing and customization (e.g., departments, conferences, personal use)
+- Themes (school colors, font style) aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/)
+- Built on the `beamerposter` class and fully customizable.
 - Simple setup (compatible with Overleaf and local LaTeX editors)
 
 ---
@@ -18,24 +17,21 @@ Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**N
 
 ---
 
-## How to Get Started
-### 1. Clone the repository
+## Setup Steps
+### 1. Getting Started
+You can access the project files in two ways: downloading and cloning.
+
+To download, simply go to _<span style="color:green"> <> Code </span>. -> Download ZIP_
+
 ```bash
 git clone https://github.com/johnlmbui/UMBC-LaTeX-Poster-Template.git
 cd UMBC-LaTeX-Poster-Template
 ```
-### 2. Open the template
-Edit the `main.tex` file to add your content:
-- Title
-- Authors and affiliations
-- Sections (Introduction, Methods, Results, etc.)
-### 3. Compile the poster
-You can compile using:
-- Overleaf
-- Local LaTeX installation:
-```bash
-xelatex main.tex
-```
+### 2. Editing
+Edit the main contents of your poster on `main.tex`.
+
+### 3. Compiling
+You can compile on Overleaf or whatever your favorite LaTeX editor is.
 
 ---
 
