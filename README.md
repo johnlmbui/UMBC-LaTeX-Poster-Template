@@ -21,7 +21,7 @@ Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**N
 ### 1. Getting Started
 You can access the project files in two ways: downloading and cloning.
 
-To download, simply go to _<span style="color:green"> <> Code </span>. -> Download ZIP_
+To download, simply go to _\textcolor{green}\text{<> Code} -> Download ZIP_
 
 ```bash
 git clone https://github.com/johnlmbui/UMBC-LaTeX-Poster-Template.git
