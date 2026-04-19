@@ -38,7 +38,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 
 ---
 
-## Theme Colors Preview (see `demos/`)
+## Color Themes Preview (see `demos/`)
 
 ### Primary
 Gold, Black
