@@ -55,7 +55,7 @@ Light Gray, Dark Gray
 White, Brown
 <p align="middle"> <img src="demos/White.png" width="45%" /> <img src="demos/Brown.png" width="45%" /> </p>
 
-### Changing Theme Color
+## Changing Theme Color
 To modify the color theme, open `beamercolorthemeumbc.sty` and adjust the `headline` color by (un)commenting the desired configuration:
 
 - Gold Banner, Black Text:
