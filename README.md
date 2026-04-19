@@ -125,13 +125,5 @@ This code block is from the style file `beamerthemeavenirnext.sty`, which sets t
 
 ---
 
-## Troubleshooting
-### `fontspec` error (font not found)
-Ensure that
-- the font is installed on your system, and
-- you are compiling with **XeLaTeX** or **LuaLaTeX**.
-
----
-
 ## Contributions
 If you have suggestions for improvement, you're more than welcome to open an issue or submit a pull request!
