@@ -129,6 +129,7 @@ Open *Font settings* and drag the font files into the window to install them.
 \setbeamerfont{footline}{family=\AvenirNext,size=\normalsize}
 
 ```
+
 This code block is from the style file `beamerthemeavenirnext.sty`, which sets the font to Avenir Next. You are encouraged to edit existing style files or add your own.
 ---
 
