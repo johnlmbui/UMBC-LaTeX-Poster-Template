@@ -22,16 +22,15 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 
 ---
 
-## Project Structure
+## Main Project Structure
 
 ```text
 .
-├── demos/                     # Examples of compiled posters
+├── fonts/                     # Avenir font files, UMBC's primary font
 ├── umbc_logos/                # UMBC logos and graphics
 ├── beamercolorthemeumbc.sty   # UMBC-themed colors
-├── beamerthemeavenirnext.sty  # Avenir font files (UMBC's primary font)
-├── beamerthemegemini.sty      # Gemini, a beamerposter theme (https://github.com/anishathalye/gemini/tree/master)
-├── main.tex                   # Main poster file
+├── beamerthemeavenirnext.sty  # Avenir font style file
+├── main.tex                   # Your poster
 ├── poster.bib                 # Bibliography/references
 └── README.md                  # What you're reading right now
 ```
