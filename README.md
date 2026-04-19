@@ -11,7 +11,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 ## Features
 - Preexisting themes, fonts, and logos aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/), AND easily customizable.
 - Works out-of-the-box with minimal setup.
-- Compaitable with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and other editors.
+- Compatible with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and other editors.
   - **Note:** You need to set the compiler to **XeLaTeX** or **LuaLaTeX**. On Overleaf, go to _Menu -> Settings -> Compiler_.
 
 ---
