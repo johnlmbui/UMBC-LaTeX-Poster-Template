@@ -25,16 +25,15 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 
 ## Main Project Structure
 
-```text
+```md
 .
-├── fonts/                     # Contains Avenir font family files
+├── fonts/                     # Avenir font family files
 ├── umbc_logos/                # UMBC logos and graphics
-├── beamercolorthemeumbc.sty   # UMBC-themed colors
-├── beamerthemeavenirnext.sty  # Avenir Next (UMBC's primary font) font style file
-├── beamerthemegemini.sty      # Gemini, default font style file
-├── main.tex                   # Your poster
-├── poster.bib                 # Bibliography/references
-└── README.md                  # What you're reading right now
+├── beamercolorthemeumbc.sty   # UMBC color theme
+├── beamerthemeavenirnext.sty  # Avenir Next font theme (UMBC standard)
+├── beamerthemegemini.sty      # Gemini, default font theme
+├── main.tex                   # Main poster file
+└── poster.bib                 # Bibliography/references
 ```
 
 ---
