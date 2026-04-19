@@ -1,15 +1,6 @@
 # UMBC LaTeX Poster Template
 A modern LaTeX `beamerposter` template designed for research posters at the University of Maryland, Baltimore County (UMBC). This template is inspired by [Rylan Schaeffer](https://rylanschaeffer.github.io/)'s [Stanford LaTeX Poster Template](https://github.com/RylanSchaeffer/Stanford-LaTeX-Poster-Template).
 
-Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**Note:** On Overleaf, set the compiler to `XeLaTeX` or `LuaLaTeX` via *Menu -> Settings -> Compiler*).
-
----
-
-## Features
-- Themes (school colors, font style) aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/)
-- Built on the `beamerposter` class and fully customizable.
-- Simple setup (compatible with Overleaf and local LaTeX editors)
-
 ---
 
 ## Poster Preview
@@ -17,21 +8,18 @@ Accessible on [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) (**N
 
 ---
 
-## Setup Steps
-### 1. Getting Started
-You can access the project files in two ways: downloading and cloning. You can learn about cloning repositories [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+## Features
+- Preexisting themes and fonts aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/), AND easily customizable.
+- Works **out-of-the-box** with minimal setup.
+- Compaitable with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and other editors.
+  - **Note:** You need to set the compiler to **XeLaTeX** or **LuaLaTeX**. On Overleaf, go to _Menu -> Settings -> Compiler_.
 
-To download, simply go to _$\color{green}{<> Code}$ -> Download ZIP_
+---
 
-```bash
-git clone https://github.com/johnlmbui/UMBC-LaTeX-Poster-Template.git
-cd UMBC-LaTeX-Poster-Template
-```
-### 2. Editing
-Edit the main contents of your poster on `main.tex`.
-
-### 3. Compiling
-You can compile on Overleaf or whatever your favorite LaTeX editor is.
+## Quick Start
+1. Download ZIP, or [clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+2. Open `main.tex` to edit
+3. Compile with XeLaTex or LuaLaTeX on Overleaf or whatever your favorite editor is (TeXstudio, MacTeX, VS Code, etc.).
 
 ---
 
@@ -132,6 +120,14 @@ I am less familiar with the exact steps for Linux, but there are many guides and
 
 ```
 This code block is from the style file `beamerthemeavenirnext.sty`, which sets the font to Avenir Next. You are encouraged to edit existing style files or add your own. The world is your oyster.
+
+---
+
+## Troubleshooting
+### `fontspec` error (font not found)
+Ensure that
+- the font is installed on your system, and
+- you are compiling with **XeLaTeX** or **LuaLaTeX**.
 
 ---
 
