@@ -101,7 +101,9 @@ These font files are typically preinstalled and available through *Font Book*.
 #### Windows 10/11
 Open *Font settings* and drag the font files into the window to install them.
 
-### How `beamertheme[font_name].sty` Works
+### `beamertheme[font_name].sty`
+
+The style file `beamerthemeavenirnext.sty` configures the document to use the Avenir Next font family. You can modify the snippet below to suit your needs or use it as a starting point for creating your own custom font themes.
 
 ```latex
 % ====================
@@ -129,8 +131,6 @@ Open *Font settings* and drag the font files into the window to install them.
 \setbeamerfont{caption}{size=\small}
 \setbeamerfont{footline}{family=\AvenirNext,size=\normalsize}
 ```
-
-This code block is from the style file `beamerthemeavenirnext.sty`, which sets the font to Avenir Next. You are encouraged to edit existing style files or add your own.
 
 ---
 
