@@ -102,6 +102,7 @@ These font files are typically preinstalled and available through *Font Book*.
 Open *Font settings* and drag the font files into the window to install them.
 
 ### How `beamertheme[font_name].sty` Works
+
 ```latex
 % ====================
 % Fonts
@@ -127,10 +128,10 @@ Open *Font settings* and drag the font files into the window to install them.
 \setbeamerfont{heading}{family=\AvenirNext,series=\bfseries}
 \setbeamerfont{caption}{size=\small}
 \setbeamerfont{footline}{family=\AvenirNext,size=\normalsize}
-
 ```
 
 This code block is from the style file `beamerthemeavenirnext.sty`, which sets the font to Avenir Next. You are encouraged to edit existing style files or add your own.
+
 ---
 
 ## Contributions
