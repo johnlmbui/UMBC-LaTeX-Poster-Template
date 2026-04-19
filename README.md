@@ -27,7 +27,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 
 ```text
 .
-├── fonts/                     # Avenir font files
+├── fonts/                     # Contains Avenir font family files
 ├── umbc_logos/                # UMBC logos and graphics
 ├── beamercolorthemeumbc.sty   # UMBC-themed colors
 ├── beamerthemeavenirnext.sty  # Avenir Next (UMBC's primary font) font style file
