@@ -10,7 +10,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 
 ## Features
 - Preconfigured themes, fonts, and logos aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/)
-  - Also easily customizable to fit your needs
+  - Also easily customizable to fit your needs. The world is your oyster!
 - Works out-of-the-box with minimal setup
 - Compatible with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and local LaTeX environments, including:
   - [TeXstudio](https://www.texstudio.org/)
@@ -133,8 +133,7 @@ Open *Font settings* and drag the font files into the window to install them.
 \setbeamerfont{footline}{family=\AvenirNext,size=\normalsize}
 
 ```
-This code block is from the style file `beamerthemeavenirnext.sty`, which sets the font to Avenir Next. You are encouraged to edit existing style files or add your own. The world is your oyster.
-
+This code block is from the style file `beamerthemeavenirnext.sty`, which sets the font to Avenir Next. You are encouraged to edit existing style files or add your own.
 ---
 
 ## Contributions
