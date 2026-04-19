@@ -73,19 +73,23 @@ To modify the color theme, open `beamercolorthemeumbc.sty` and adjust the `headl
 
 ---
 
-## Changing the Font
+## The Avenir Font Family
 
-This project uses `beamerthemegemini.sty` by default, which is forked from https://github.com/anishathalye/gemini.
+**Avenir Next** is the primary font used in UMBC publications. It is not included in standard TeX distributions and must be installed separately. The `fonts/` directory contains:
 
-Some fonts (such as Avenir Next) are not included in standard TeX distributions and must be installed separately. Refer to this [Overleaf documentation](https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F) for guidance on loading custom fonts.
-
-You may use any LaTeX editor or setup you prefer. Common options include [MacTeX](https://www.tug.org/mactex/) (macOS) and [TeXstudio](https://www.texstudio.org/) (cross-platform).
-
-### The Avenir Font Family
-**Avenir Next** is the primary font used in UMBC publications. The `fonts/` directory contains:
 - `Avenir.ttc`
 - `Avenir Next.ttc`
 - `Avenir Next Condensed.ttc`
+
+Refer to this [Overleaf documentation](https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F) for guidance on loading custom fonts.
+
+You may use any LaTeX editor or setup you prefer. Common options include [MacTeX](https://www.tug.org/mactex/) (macOS) and [TeXstudio](https://www.texstudio.org/) (cross-platform).
+
+---
+
+## Changing the Font
+
+This project uses `beamerthemegemini.sty` by default (forked from https://github.com/anishathalye/gemini).
 
 To use Avenir Next, update `main.tex` by changing `\usetheme{gemini}` to `\usetheme{avenirnext}`.
 
