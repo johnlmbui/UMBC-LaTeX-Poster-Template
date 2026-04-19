@@ -72,7 +72,10 @@ To modify the color theme, open `beamercolorthemeumbc.sty` and adjust the `headl
 ```latex
 \setbeamercolor{headline}{bg=umbcaokteal,fg=white}
 ```
-- Additional color combinations are available in the file, and you can define your own as needed.
+- Additional color combinations can be defined in the file by adding or redefining RGB values:
+```latex
+\definecolor{color_name}{RGB}{RRR, GGG, BBB}
+```
 
 ---
 
