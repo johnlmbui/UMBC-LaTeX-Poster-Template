@@ -83,13 +83,15 @@ This project defaults to using the `beamerthemegemini.sty`, as it is forked from
 - `Avenir Next.ttc`
 - `Avenir Next Condensed.ttc`
 
-#### macOS
-These font files come preinstalled in Font Book. In `main.tex`, change `\usetheme{gemini}` to `\usetheme{avenirnext}`.
-#### Windows 10/11
-Open Font settings and drag the font files into its window to install them. Then follow the same step above.
-#### Linux 
-I am less familiar with the exact steps for Linux, but there are many guides and resources available online. You are encouraged to look up instructions specific to your distribution.
+To use Avenir Next, update `main.tex` by changing `\usetheme{gemini}` to `\usetheme{avenirnext}`.
 
+Font installation varies by operating system. Refer to the appropriate instructions below or consult system-specific documentation for installing custom fonts.
+
+#### macOS
+These font files are typically preinstalled and available through Font Book.
+
+#### Windows 10/11
+Open Font Settings and drag the font files into the window to install them.
 
 ### How `beamertheme[font_name].sty` Works
 ```latex
