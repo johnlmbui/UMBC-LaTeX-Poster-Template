@@ -17,7 +17,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 
 ## Quick Start
 1. Download ZIP, or [clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-2. Open `main.tex` to edit
+2. Open `main.tex` to edit contents
 3. Set compiler to **XeLaTex** or **LuaLaTeX** on Overleaf (Menu -> Settings -> Compiler) or whatever your favorite editor is, and compile
 
 ---
