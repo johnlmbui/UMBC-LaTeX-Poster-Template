@@ -93,7 +93,7 @@ This project uses `beamerthemegemini.sty` by default (forked from https://github
 
 To use Avenir Next, update `main.tex` by changing `\usetheme{gemini}` to `\usetheme{avenirnext}`.
 
-Font installation varies by operating system. Refer to the appropriate instructions below or consult system-specific documentation for installing custom fonts.
+Font installation varies by operating system. Refer to the appropriate instructions below or system-specific documentation for installing custom fonts:
 
 #### macOS
 These font files are typically preinstalled and available through *Font Book*.
