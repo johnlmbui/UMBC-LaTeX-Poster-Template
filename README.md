@@ -87,8 +87,6 @@ To modify the color theme, open `beamercolorthemeumbc.sty` and adjust the `headl
 
 Refer to this [Overleaf documentation](https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F) for guidance on loading custom fonts, but you may use any LaTeX editor or setup you prefer.
 
----
-
 ## Changing the Font
 
 This project uses `beamerthemegemini.sty` by default (forked from https://github.com/anishathalye/gemini).
