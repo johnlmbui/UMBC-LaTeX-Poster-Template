@@ -12,7 +12,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 - Preexisting themes, fonts, and logos aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/)
   - AND easily customizable
 - Works out-of-the-box with minimal setup
-- Compatible with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and other editors (TeXstudio, MacTeX, VS Code, etc.)
+- Compatible with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and other editors ([TeXstudio](https://www.texstudio.org/), [MacTeX](https://www.tug.org/mactex/) (macOS), VS Code, etc.)
 
 ---
 
@@ -81,9 +81,7 @@ To modify the color theme, open `beamercolorthemeumbc.sty` and adjust the `headl
 - `Avenir Next.ttc`
 - `Avenir Next Condensed.ttc`
 
-Refer to this [Overleaf documentation](https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F) for guidance on loading custom fonts.
-
-You may use any LaTeX editor or setup you prefer. Common options include [MacTeX](https://www.tug.org/mactex/) (macOS) and [TeXstudio](https://www.texstudio.org/) (cross-platform).
+Refer to this [Overleaf documentation](https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F) for guidance on loading custom fonts, but you may use any LaTeX editor or setup you prefer.
 
 ---
 
