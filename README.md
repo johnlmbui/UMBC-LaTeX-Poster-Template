@@ -91,15 +91,15 @@ You may use any LaTeX editor or setup you prefer. Common options include [MacTeX
 
 This project uses `beamerthemegemini.sty` by default (forked from https://github.com/anishathalye/gemini).
 
-To use **Avenir Next**, update `main.tex` by changing `\usetheme{gemini}` to `\usetheme{avenirnext}`.
+To use Avenir Next, update `main.tex` by changing `\usetheme{gemini}` to `\usetheme{avenirnext}`.
 
 Font installation varies by operating system. Refer to the appropriate instructions below or consult system-specific documentation for installing custom fonts.
 
 #### macOS
-These font files are typically preinstalled and available through **Font Book**.
+These font files are typically preinstalled and available through *Font Book*.
 
 #### Windows 10/11
-Open **Font settings** and drag the font files into the window to install them.
+Open *Font settings* and drag the font files into the window to install them.
 
 ### How `beamertheme[font_name].sty` Works
 ```latex
