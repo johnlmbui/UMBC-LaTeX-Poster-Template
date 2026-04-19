@@ -29,7 +29,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 ├── demos/                     # Examples of compiled posters
 ├── umbc_logos/                # UMBC logos and graphics
 ├── beamercolorthemeumbc.sty   # UMBC-themed colors
-├── beamerthemeavenirnext.sty  # Avenir font files
+├── beamerthemeavenirnext.sty  # Avenir font files (UMBC's primary font)
 ├── beamerthemegemini.sty      # Gemini, a beamerposter theme (https://github.com/anishathalye/gemini/tree/master)
 ├── main.tex                   # Main poster file
 ├── poster.bib                 # Bibliography/references
