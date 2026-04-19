@@ -9,16 +9,16 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 ---
 
 ## Features
-- Preexisting themes, fonts, and logos aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/), AND easily customizable.
-- Works out-of-the-box with minimal setup.
-- Compatible with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and other editors.
+- Preexisting themes, fonts, and logos aligned with the [UMBC Brand and Style Guide](https://styleguide.umbc.edu/), AND easily customizable
+- Works out-of-the-box with minimal setup
+- Compatible with [Overleaf](https://www.overleaf.com/read/dmwdjvpbspcs#f175ae) and other editors (TeXstudio, MacTeX, VS Code, etc.)
 
 ---
 
 ## Quick Start
 1. Download ZIP, or [clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 2. Open `main.tex` to edit
-3. Set compiler to **XeLaTex** or **LuaLaTeX** on Overleaf (Menu -> Settings -> Compiler) or whatever your favorite editor is (TeXstudio, MacTeX, VS Code, etc.), and compile
+3. Set compiler to **XeLaTex** or **LuaLaTeX** on Overleaf (Menu -> Settings -> Compiler) or whatever your favorite editor is, and compile
 
 ---
 
