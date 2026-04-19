@@ -54,8 +54,8 @@ White, Brown
 
 ---
 
-## Changing the Theme Color
-Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)commenting the relevant lines:
+## Changing Theme Color
+To modify the color theme, open `beamercolorthemeumbc.sty` and adjust the `headline` color by (un)commenting the desired configuration:
 
 - Gold Banner, Black Text:
 ```latex
@@ -69,7 +69,7 @@ Navigate to `beamercolorthemeumbc.sty` and modify the `headline` color by (un)co
 ```latex
 \setbeamercolor{headline}{bg=umbcaokteal,fg=white}
 ```
-- And other combinations that are available in the file.
+- Additional color combinations are available in the file, and you can define your own as needed.
 
 ---
 
