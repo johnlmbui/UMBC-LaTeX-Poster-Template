@@ -9,6 +9,7 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 30in height x 40in width
 ### Equivalent dimensions (centimeters)
 76.2cm height x 101.6cm width
+### In `main.tex`
 ```latex
 \usepackage[
     size=custom,
