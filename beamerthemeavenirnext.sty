@@ -110,14 +110,14 @@
 \setlength{\maxlogowidth}{0cm}
 
 \newcommand{\logoright}[1]{
-    \newcommand{\insertlogoright}{#1}
+    \def\insertlogoright{#1}
     \settowidth{\logorightwidth}{\insertlogoright}
     \addtolength{\logorightwidth}{10ex}
     \setlength{\maxlogowidth}{\maxof{\logoleftwidth}{\logorightwidth}}
 }
 
 \newcommand{\logoleft}[1]{
-    \newcommand{\insertlogoleft}{#1}
+    \def\insertlogoleft{#1}
     \settowidth{\logoleftwidth}{\insertlogoleft}
     \addtolength{\logoleftwidth}{10ex}
     \setlength{\maxlogowidth}{\maxof{\logoleftwidth}{\logorightwidth}}
@@ -144,15 +144,18 @@
                 \vskip3ex
                 \centering
 
-                \ifx \inserttitle \empty \else
+                \ifx\inserttitle\empty
+                \else
                     {\usebeamerfont{headline title}\usebeamercolor[fg]{headline title}\inserttitle\\[0.5ex]}
                 \fi
 
-                \ifx \beamer@shortauthor \empty \else
+                \ifx\beamer@shortauthor\empty
+                \else
                     {\usebeamerfont{headline author}\usebeamercolor[fg]{headline author}\insertauthor\\[1ex]}
                 \fi
 
-                \ifx \insertinstitute \empty \else
+                \ifx\insertinstitute\empty
+                \else
                     {\usebeamerfont{headline institute}\usebeamercolor[fg]{headline institute}\insertinstitute\\[1ex]}
                 \fi
             \end{column}
@@ -207,25 +210,24 @@
 }
 
 % Footer
-\newcommand{\footercontent}[1]{\newcommand{\insertfootercontent}{#1}}
+\providecommand{\footercontent}[1]{\gdef\insertfootercontent{#1}}
 
 \setbeamertemplate{footline}{
-    \ifdefined\insertfootercontent
-        \begin{beamercolorbox}[vmode]{headline}
-
-            \ifbeamercolorempty[bg]{headline rule}{}{
-                \begin{beamercolorbox}[wd=\paperwidth,colsep=0.25ex]{headline rule}
-                \end{beamercolorbox}
-            }
-
-            \vspace{1.5ex}
-            \hspace{\sepwidth}
-            \usebeamerfont{footline}
-            \centering
-            \insertfootercontent
-            \hspace{\sepwidth}
-            \vspace{1.5ex}
-
-        \end{beamercolorbox}
-    \fi
+	\ifdefined\insertfootercontent
+	\begin{beamercolorbox}[vmode]{headline}
+		\ifbeamercolorempty[bg]{headline rule}{}{
+			\begin{beamercolorbox}[wd=\paperwidth,colsep=0.25ex]{headline rule}
+			\end{beamercolorbox}
+		}
+		
+		\vspace{1.5ex}
+		\hspace{\sepwidth}
+		\usebeamerfont{footline}
+		\centering
+		\insertfootercontent
+		\hspace{\sepwidth}
+		\vspace{1.5ex}
+	\end{beamercolorbox}
+	\else
+	\fi
 }
