@@ -4,6 +4,17 @@ A modern LaTeX `beamerposter` template designed for research posters at the Univ
 ---
 
 ## Poster Preview
+
+Poster dimensions: \(40 \text{ in} \times 30 \text{ in}\)  
+Equivalent dimensions: \(101.6 \text{ cm} \times 76.2 \text{ cm}\)
+```latex
+\usepackage[
+    size=custom,
+    width=101.6,
+    height=76.2,
+    scale=1.0
+]{beamerposter}
+```
 ![](poster.png)
 
 ---
