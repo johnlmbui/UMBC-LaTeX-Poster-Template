@@ -11,23 +11,6 @@
 
 % https://styleguide.umbc.edu/typography/
 
-% Stanford Wordmarks: https://identity.stanford.edu/visual-identity/stanford-logos/wordmarks/
-\definecolor{cardinalred}{RGB}{140,21,21}
-\definecolor{coolgray}{RGB}{77,79,83}
-\definecolor{beige}{RGB}{210,194,149}
-\definecolor{darkbeige}{RGB}{179,153,93}
-\definecolor{darkcardinal}{RGB}{94,48,50}
-\definecolor{lightcardinal}{RGB}{141,60,30}
-\definecolor{darkpurple}{RGB}{83,40,79}
-\definecolor{darkcyan}{RGB}{0,124,146}
-\definecolor{skyblue}{RGB}{0,152,219}
-\definecolor{treegreen}{RGB}{0,155,118}
-\definecolor{paloaltogreen}{RGB}{23, 94, 84}
-\definecolor{darkorange}{RGB}{168,101,12}
-\definecolor{beigegray}{RGB}{95,87,79}
-\definecolor{boxgray}{RGB}{238,235,233}
-\definecolor{footergray}{RGB}{199,209,197}
-
 % UMBC Colors: https://styleguide.umbc.edu/umbc-colors/
 % Primary Colors
 \definecolor{umbcgold}{RGB}{253,181,21}
@@ -39,20 +22,14 @@
 \definecolor{umbcretrieverbrown}{RGB}{166,122,5}
 \definecolor{umbcdarkgray}{RGB}{99,100,102}
 
-% Extra colors from https://htmlcolorcodes.com/colors/
-\definecolor{ivory}{RGB}{255, 255, 240}
-
-
 \mode<presentation>
 
 \setbeamercolor*{palette primary}{use=structure,fg=white,bg=umbcgold}
-\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=coolgray}
-\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=darkcardinal}
-\setbeamercolor*{palette quaternary}{fg=white,bg=darkbeige}
+\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=umbclightgray}
 
 
 % Headline, Sidebar, Footer
-\setbeamercolor*{sidebar}{use=structure,bg=beige}
+\setbeamercolor*{sidebar}{use=structure,bg=umbcretrieverbrown}
 % \setbeamercolor{headline}{bg=white,fg=umbcgold}
 \setbeamercolor{headline}{bg=umbcgold,fg=black}
 % \setbeamercolor{headline}{bg=black,fg=umbcgold}
@@ -62,7 +39,6 @@
 % \setbeamercolor{headline}{bg=umbcretrieverbrown,fg=white}
 % \setbeamercolor{headline}{bg=darkgray,fg=white}
 \setbeamercolor{headline rule}{bg=black}
-\setbeamercolor*{footer}{use=structure,bg=footergray,fg=darkcardinal}
 
 % Block
 \setbeamercolor{block title}{fg=umbcgold,bg=white}
@@ -70,14 +46,14 @@
 \setbeamercolor{block body}{fg=black,bg=white}
 
 % Alert Block
-\setbeamercolor{block title alerted}{fg=umbcgold,bg=ivory}
+\setbeamercolor{block title alerted}{fg=umbcgold,bg=umbcgold!20}
 \setbeamercolor{block separator alerted}{bg=black}
-\setbeamercolor{block body alerted}{fg=black,bg=ivory}
+\setbeamercolor{block body alerted}{fg=black,bg=umbcgold!20}
 
 % Example Block
-\setbeamercolor{block title example}{fg=umbcgold,bg=boxgray}
+\setbeamercolor{block title example}{fg=umbcgold,bg=umbclightgray!20}
 \setbeamercolor{block separator example}{bg=black}
-\setbeamercolor{block body example}{fg=black,bg=boxgray}
+\setbeamercolor{block body example}{fg=black,bg=umbclightgray!20}
 
 
 \setbeamercolor*{palette sidebar primary}{use=structure,fg=structure.fg!10}
@@ -91,21 +67,23 @@
 \setbeamercolor*{separation line}{}
 \setbeamercolor*{fine separation line}{}
 
+% Lists
 \setbeamercolor{itemize item}{fg=umbcgold}
 \setbeamercolor{itemize subitem}{fg=umbcgold}
 \setbeamercolor{itemize subsubitem}{fg=umbcgold}
-\setbeamercolor{enumerate item}{fg=umbcgold}
-\setbeamercolor{enumerate subitem}{fg=umbcgold}
-\setbeamercolor{enumerate subsubitem}{fg=umbcgold}
-\setbeamercolor{description item}{fg=umbcgold}
+\setbeamercolor{enumerate item}{fg=umbcred}
+\setbeamercolor{enumerate subitem}{fg=umbcred}
+\setbeamercolor{enumerate subsubitem}{fg=umbcred}
+\setbeamercolor{description item}{fg=umbcred}
 
+% Bibliography
 \setbeamertemplate{bibliography item}[text]
+\setbeamercolor{bibliography item}{fg=umbcaokteal}
 \setbeamertemplate{frametitle continuation}[from second]
 \setbeamercolor{bibliography entry title}{fg=black}
 \setbeamercolor{bibliography entry author}{fg=black}
 \setbeamercolor*{bibliography entry location}{fg=black}
 \setbeamercolor*{bibliography entry note}{fg=black}
-
 
 \mode
 <all>
