@@ -115,11 +115,11 @@ The style file `beamerthemeavenirnext.sty` configures the document to use the Av
 \usefonttheme{professionalfonts}
 
 \setsansfont{Avenir Next}[
-  Ligatures=TeX,
-  UprightFont    = {Avenir Next Regular},
-  ItalicFont     = {Avenir Next Italic},
-  BoldFont       = {Avenir Next Bold},
-  BoldItalicFont = {Avenir Next Bold Italic}
+    Ligatures=TeX,
+    UprightFont    = {Avenir Next Regular},
+    ItalicFont     = {Avenir Next Italic},
+    BoldFont       = {Avenir Next Bold},
+    BoldItalicFont = {Avenir Next Bold Italic}
 ]
 
 \setbeamerfont{headline}{family=\AvenirNext}
