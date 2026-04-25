@@ -12,9 +12,15 @@
 % https://styleguide.umbc.edu/typography/
 
 % UMBC Colors: https://styleguide.umbc.edu/umbc-colors/
+
+% ====================
+% Colors
+% ====================
+
 % Primary Colors
 \definecolor{umbcgold}{RGB}{253,181,21}
 \definecolor{black}{RGB}{0,0,0}
+
 % Secondary Colors
 \definecolor{umbcred}{RGB}{218,33,40}
 \definecolor{umbclightgray}{RGB}{199,200,202}
@@ -24,12 +30,24 @@
 
 \mode<presentation>
 
+% ====================
+% Palettes
+% ====================
+
 \setbeamercolor*{palette primary}{use=structure,fg=white,bg=umbcgold}
 \setbeamercolor*{palette secondary}{use=structure,fg=white,bg=umbclightgray}
 
+\setbeamercolor*{palette sidebar primary}{use=structure,fg=structure.fg!10}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{use=structure,fg=structure.fg!50}
+\setbeamercolor*{palette sidebar quaternary}{fg=white}
 
+% ====================
 % Headline, Sidebar, Footer
+% ====================
+
 \setbeamercolor*{sidebar}{use=structure,bg=umbcretrieverbrown}
+
 % \setbeamercolor{headline}{bg=white,fg=umbcgold}
 \setbeamercolor{headline}{bg=umbcgold,fg=black}
 % \setbeamercolor{headline}{bg=black,fg=umbcgold}
@@ -38,28 +56,8 @@
 % \setbeamercolor{headline}{bg=umbcaokteal,fg=white}
 % \setbeamercolor{headline}{bg=umbcretrieverbrown,fg=white}
 % \setbeamercolor{headline}{bg=darkgray,fg=white}
+
 \setbeamercolor{headline rule}{bg=black}
-
-% Block
-\setbeamercolor{block title}{fg=umbcgold,bg=white}
-\setbeamercolor{block separator}{bg=black}
-\setbeamercolor{block body}{fg=black,bg=white}
-
-% Alert Block
-\setbeamercolor{block title alerted}{fg=umbcgold,bg=umbcgold!20}
-\setbeamercolor{block separator alerted}{bg=black}
-\setbeamercolor{block body alerted}{fg=black,bg=umbcgold!20}
-
-% Example Block
-\setbeamercolor{block title example}{fg=umbcgold,bg=umbclightgray!20}
-\setbeamercolor{block separator example}{bg=black}
-\setbeamercolor{block body example}{fg=black,bg=umbclightgray!20}
-
-
-\setbeamercolor*{palette sidebar primary}{use=structure,fg=structure.fg!10}
-\setbeamercolor*{palette sidebar secondary}{fg=white}
-\setbeamercolor*{palette sidebar tertiary}{use=structure,fg=structure.fg!50}
-\setbeamercolor*{palette sidebar quaternary}{fg=white}
 
 \setbeamercolor*{titlelike}{parent=palette primary}
 \setbeamercolor*{foot line}{parent=palette secondary}
@@ -67,23 +65,48 @@
 \setbeamercolor*{separation line}{}
 \setbeamercolor*{fine separation line}{}
 
+% ====================
+% Blocks
+% ====================
+
+\setbeamercolor{block title}{fg=umbcgold,bg=white}
+\setbeamercolor{block separator}{bg=black}
+\setbeamercolor{block body}{fg=black,bg=white}
+
+\setbeamercolor{block title alerted}{fg=umbcgold,bg=umbcgold!20}
+\setbeamercolor{block separator alerted}{bg=black}
+\setbeamercolor{block body alerted}{fg=black,bg=umbcgold!20}
+
+\setbeamercolor{block title example}{fg=umbcgold,bg=umbclightgray!20}
+\setbeamercolor{block separator example}{bg=black}
+\setbeamercolor{block body example}{fg=black,bg=umbclightgray!20}
+
+% ====================
 % Lists
+% ====================
+
 \setbeamercolor{itemize item}{fg=umbcgold}
 \setbeamercolor{itemize subitem}{fg=umbcgold}
 \setbeamercolor{itemize subsubitem}{fg=umbcgold}
+
 \setbeamercolor{enumerate item}{fg=umbcred}
 \setbeamercolor{enumerate subitem}{fg=umbcred}
 \setbeamercolor{enumerate subsubitem}{fg=umbcred}
+
 \setbeamercolor{description item}{fg=umbcred}
 
+% ====================
 % Bibliography
+% ====================
+
 \setbeamertemplate{bibliography item}[text]
 \setbeamercolor{bibliography item}{fg=umbcaokteal}
+
 \setbeamertemplate{frametitle continuation}[from second]
+
 \setbeamercolor{bibliography entry title}{fg=black}
 \setbeamercolor{bibliography entry author}{fg=black}
 \setbeamercolor*{bibliography entry location}{fg=black}
 \setbeamercolor*{bibliography entry note}{fg=black}
 
-\mode
-<all>
+\mode<all>
