@@ -1,8 +1,5 @@
-% IF YOU ARE USING OVERLEAF, MAKE SURE TO SET THE COMPILER TO XeLatex (Menu in the top left > Settings > Compiler).
-
-% Gemini theme
-% See: https://rev.cs.uchicago.edu/k4rtik/gemini-uccs
-% A fork of https://github.com/anishathalye/gemini
+% IF YOU ARE USING OVERLEAF, MAKE SURE TO SET THE COMPILER TO XeLaTeX
+% (Menu in the top left > Settings > Compiler).
 
 \documentclass[final]{beamer}
 
@@ -10,16 +7,27 @@
 % Packages
 % ====================
 
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage[size=custom,width=120,height=90,scale=1.0]{beamerposter}
-\usetheme{gemini}
-% \usecolortheme{uchicago}
-% \usecolortheme{stanford}
+\usepackage{standalone}
+\usepackage{blochsphere}
+\usepackage{ragged2e}
+\usepackage{lipsum}
+\usepackage{graphicx,epsfig}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{array,tabularx,multirow,makecell,setspace}
+\usepackage{comment}
+\usepackage{fontspec}
+\usepackage[size=custom,width=101.6,height=76.2,scale=1.0]{beamerposter}
+
+%\usetheme{gemini}
+\usetheme{avenirnext}
 \usecolortheme{umbc}
-\usepackage{graphicx}
+
 \usepackage{booktabs}
+\usepackage[svgnames]{xcolor}
+\usepackage[labelfont={color=umbcaokteal}]{caption}
+\usepackage{subcaption}
 \usepackage{tikz}
+\usetikzlibrary{calc,matrix,positioning,arrows.meta}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.17}
 
@@ -28,7 +36,7 @@
 % ====================
 
 % If you have N columns, choose \sepwidth and \colwidth such that
-% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+% (N+1)\sepwidth + N\colwidth = \paperwidth
 \newlength{\sepwidth}
 \newlength{\colwidth}
 \setlength{\sepwidth}{0.025\paperwidth}
@@ -36,6 +44,9 @@
 
 \newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
 
+% ====================
+% Title Info
+% ====================
 
 \title{Your Title Goes Here}
 
@@ -47,7 +58,7 @@ John Bui \inst{1}
 }
 
 \institute{
-\inst{1} Department of Mathematics and Statistics, University of Maryland, Baltimore County
+\inst{1} Department of Mathematics and Statistics, UMBC
 \samelineand
 \inst{2} Another Institute
 }
@@ -59,7 +70,8 @@ John Bui \inst{1}
 \footercontent{
   \href{https://johnlmbui.github.io/}{johnlmbui.github.io} \hfill
   Undergraduate Research and Creative Achievement Day (URCAD) 2026 \hfill
-  \href{mailto:johnlmbui@umbc.edu}{johnlmbui@umbc.edu}}
+  \href{mailto:johnlmbui@umbc.edu}{johnlmbui@umbc.edu}
+}
 % (can be left out to remove footer)
 
 % ====================
@@ -76,20 +88,37 @@ John Bui \inst{1}
 
 \begin{document}
 
-% This adds the Logos on the top left and top right
-\addtobeamertemplate{headline}{}
-{
+\RaggedRight
+
+% Top-right logo
+\addtobeamertemplate{headline}{} {
     \begin{tikzpicture}[remember picture,overlay]
-    %   \node [anchor=north west, inner sep=3cm] at ([xshift=0.0cm,yshift=1.0cm]current page.north west)
-    %   {\includegraphics[height=5.0cm]{stanford_logos/Stanford-CS.png}}; % uc-logo-white.eps
-      \node [anchor=north east, inner sep=3.0cm] at ([xshift=0.0cm,yshift=0.5cm]current page.north east)
-      {\includegraphics[height=3.5cm]{umbc_logos/UMBC-primary-logo-RGB.png}};
+      \node[
+        anchor=north east,
+        inner sep=3.0cm
+      ] at ([xshift=0.0cm,yshift=1cm]current page.north east)
+      {\includegraphics[height=3cm]{umbc_logos/UMBC-primary-logo-RGB.png}};
     \end{tikzpicture}
+}
+
+% Top-left QR code
+\addtobeamertemplate{headline}{} {
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[
+		anchor=north west,
+		inner sep=3.0cm
+		] at ([xshift=0.0cm,yshift=2.5cm]current page.north west)
+		{\includegraphics[height=6cm]{qr-code.png}};
+	\end{tikzpicture}
 }
 
 \begin{frame}[t]
 \begin{columns}[t]
 \separatorcolumn
+
+% ====================
+% Column 1
+% ====================
 
 \begin{column}{\colwidth}
 
